@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.robinson.projects.sainsburystest.ScraperTaskTest" time="0.041" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.robinson.projects.sainsburystest.ScraperTaskTest" time="0.099" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_192\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\ANDREW~1\AppData\Local\Temp\surefire5968503103247714265\surefirebooter6052304614639291894.jar C:\Users\Andrew Robinson\AppData\Local\Temp\surefire5968503103247714265 2019-07-01T23-43-04_665-jvmRun1 surefire7525312732528630192tmp surefire_07785879147908296683tmp"/>
+    <property name="sun.java.command" value="C:\Users\ANDREW~1\AppData\Local\Temp\surefire8531152663409080247\surefirebooter4459367809891413385.jar C:\Users\Andrew Robinson\AppData\Local\Temp\surefire8531152663409080247 2019-07-02T01-33-38_430-jvmRun1 surefire4689589895701563022tmp surefire_0742389162942955999tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Andrew Robinson\workspace-spring-tool-suite-4-4.1.2.RELEASE\sainsburystest\target\test-classes;C:\Users\Andrew Robinson\workspace-spring-tool-suite-4-4.1.2.RELEASE\sainsburystest\target\classes;C:\Users\Andrew Robinson\.m2\repository\org\junit\jupiter\junit-jupiter\5.5.0-M1\junit-jupiter-5.5.0-M1.jar;C:\Users\Andrew Robinson\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.0-M1\junit-jupiter-api-5.5.0-M1.jar;C:\Users\Andrew Robinson\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Andrew Robinson\.m2\repository\org\junit\platform\junit-platform-commons\1.5.0-M1\junit-platform-commons-1.5.0-M1.jar;C:\Users\Andrew Robinson\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.5.0-M1\junit-jupiter-params-5.5.0-M1.jar;C:\Users\Andrew Robinson\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.0-M1\junit-jupiter-engine-5.5.0-M1.jar;C:\Users\Andrew Robinson\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Andrew Robinson\.m2\repository\org\junit\platform\junit-platform-engine\1.5.0-M1\junit-platform-engine-1.5.0-M1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Andrew Robinson"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ANDREW~1\AppData\Local\Temp\surefire5968503103247714265\surefirebooter6052304614639291894.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ANDREW~1\AppData\Local\Temp\surefire8531152663409080247\surefirebooter4459367809891413385.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_192\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_192\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_192\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_192\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_192\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_192\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_192\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_192\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -52,7 +52,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_192\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_192/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_192/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_192/bin/../jre/lib/amd64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files (x86)\scala\bin;C:\Program Files (x86)\get_iplayer;C:\Program Files\Git\cmd;C:\Users\Andrew Robinson\apache-maven-3.6.1\bin;C:\Users\Andrew Robinson\AppData\Local\Microsoft\WindowsApps;C:\Users\Andrew Robinson\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Andrew Robinson\.dotnet\tools;C:\Gradle\bin;C:\Users\Andrew Robinson\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\Users\Andrew Robinson\AppData\Local\Programs\EmEditor;C:\Users\Andrew Robinson\AppData\Roaming\npm;C:\Users\Andrew Robinson\AppData\Local\GitHubDesktop\bin;C:\Program Files\swipl\bin;C:\Program Files\Java\jdk1.8.0_192\bin;C:\apache-ant-1.9.13\bin;;C:\Users\Andrew Robinson\AppData\Local\Microsoft\WindowsApps;C:\Users\Andrew Robinson\spring-tool-suite;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_192\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Andrew Robinson\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Andrew Robinson\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\nodejs;C:\Program Files (x86)\scala\bin;C:\Program Files (x86)\get_iplayer;C:\Program Files\Git\cmd;C:\Users\Andrew Robinson\apache-maven-3.6.1\bin;C:\Users\Andrew Robinson\AppData\Local\Microsoft\WindowsApps;C:\Users\Andrew Robinson\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Andrew Robinson\.dotnet\tools;C:\Gradle\bin;C:\Users\Andrew Robinson\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64;C:\Users\Andrew Robinson\AppData\Local\Programs\EmEditor;C:\Users\Andrew Robinson\AppData\Roaming\npm;C:\Users\Andrew Robinson\AppData\Local\GitHubDesktop\bin;C:\Program Files\swipl\bin;C:\Program Files\Java\jdk1.8.0_192\bin;C:\apache-ant-1.9.13\bin;C:\Users\Andrew Robinson\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.192-b12"/>
@@ -60,9 +60,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="test" classname="com.robinson.projects.sainsburystest.ScraperTaskTest" time="0.033">
-    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at com.robinson.projects.sainsburystest.ScraperTaskTest.test(ScraperTaskTest.java:11)
-]]></failure>
-  </testcase>
+  <testcase name="test" classname="com.robinson.projects.sainsburystest.ScraperTaskTest" time="0.079"/>
+  <testcase name="test2" classname="com.robinson.projects.sainsburystest.ScraperTaskTest" time="0.002"/>
 </testsuite>
