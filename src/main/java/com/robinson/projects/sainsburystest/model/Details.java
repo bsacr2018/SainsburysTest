@@ -5,12 +5,9 @@ import java.math.RoundingMode;
 import java.util.Optional;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.robinson.projects.sainsburystest.jsonhandler.CustomDoubleSerializer;
+import com.robinson.projects.sainsburystest.jsonhandler.*;
 
 public class Details {
-//	final static BigDecimal VERY_SMALL_AMOUNT = BigDecimal.valueOf(1e-7);
-//	final static BigDecimal ZERO = BigDecimal.valueOf(0);	
-	
 	private String productTitle;
 	@JsonSerialize(using = CustomDoubleSerializer.class)
 	private Double unitPrice;

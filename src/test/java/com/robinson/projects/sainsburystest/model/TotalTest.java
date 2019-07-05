@@ -26,7 +26,7 @@ public class TotalTest {
 	}
 	
 	@Test
-	void testThat_ItemsThatSumTo120Pounds_resultsIn_120Gross_20Vat() {
+	void testThat_ValuesThatSumTo120Pounds_resultIn_120Gross_20Vat() {
 		total = new Total();
 		total.addToTotal(60.0);
 		total.addToTotal(60.0);
@@ -34,13 +34,24 @@ public class TotalTest {
 		assertEquals(20.0, total.getVat());		
 	}
 	
-	
 	@Test
-	void testThat_ItemsThatSumTo5Pounds_resultsIn_5PouundsGross_83PenceVat() {
+	void testThat_ValuesThatSumTo5Pounds_resultIn_5PouundsGross_83PenceVat() {
 		total = new Total();
 		total.addToTotal(2.0);
 		total.addToTotal(2.0);
 		total.addToTotal(1.0);
+		assertEquals(5.0, total.getGross());
+		assertEquals(0.83, total.getVat());		
+	}
+	
+	@Test
+	void testThat_ValuesThatSumTo5PoundsIncludingNegativeValues_resultIn_5PouundsGross_83PenceVat() {
+		total = new Total();
+		total.addToTotal(-7.0);
+		total.addToTotal(2.0);
+		total.addToTotal(2.0);
+		total.addToTotal(1.0);
+		total.addToTotal(7.0);
 		assertEquals(5.0, total.getGross());
 		assertEquals(0.83, total.getVat());		
 	}
