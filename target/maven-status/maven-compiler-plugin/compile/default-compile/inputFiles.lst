@@ -1,6 +1,8 @@
-C:\Users\Andrew Robinson\workspace-spring-tool-suite-4-4.1.2.RELEASE\sainsburystest\src\main\java\com\robinson\projects\sainsburystest\jsonhandler\DisplayableProduct.java
+C:\Users\Andrew Robinson\workspace-spring-tool-suite-4-4.1.2.RELEASE\sainsburystest\src\main\java\com\robinson\projects\sainsburystest\model\Product.java
+C:\Users\Andrew Robinson\workspace-spring-tool-suite-4-4.1.2.RELEASE\sainsburystest\src\main\java\com\robinson\projects\sainsburystest\jsonhandler\Precision.java
+C:\Users\Andrew Robinson\workspace-spring-tool-suite-4-4.1.2.RELEASE\sainsburystest\src\main\java\com\robinson\projects\sainsburystest\model\Total.java
 C:\Users\Andrew Robinson\workspace-spring-tool-suite-4-4.1.2.RELEASE\sainsburystest\src\main\java\com\robinson\projects\sainsburystest\ScraperTask.java
-C:\Users\Andrew Robinson\workspace-spring-tool-suite-4-4.1.2.RELEASE\sainsburystest\src\main\java\com\robinson\projects\sainsburystest\jsonhandler\Total.java
-C:\Users\Andrew Robinson\workspace-spring-tool-suite-4-4.1.2.RELEASE\sainsburystest\src\main\java\com\robinson\projects\sainsburystest\jsonhandler\JSONHandler.java
-C:\Users\Andrew Robinson\workspace-spring-tool-suite-4-4.1.2.RELEASE\sainsburystest\src\main\java\com\robinson\projects\sainsburystest\Product.java
-C:\Users\Andrew Robinson\workspace-spring-tool-suite-4-4.1.2.RELEASE\sainsburystest\src\main\java\com\robinson\projects\sainsburystest\jsonhandler\Result.java
+C:\Users\Andrew Robinson\workspace-spring-tool-suite-4-4.1.2.RELEASE\sainsburystest\src\main\java\com\robinson\projects\sainsburystest\model\Details.java
+C:\Users\Andrew Robinson\workspace-spring-tool-suite-4-4.1.2.RELEASE\sainsburystest\src\main\java\com\robinson\projects\sainsburystest\model\DisplayableProducts.java
+C:\Users\Andrew Robinson\workspace-spring-tool-suite-4-4.1.2.RELEASE\sainsburystest\src\main\java\com\robinson\projects\sainsburystest\model\Result.java
+C:\Users\Andrew Robinson\workspace-spring-tool-suite-4-4.1.2.RELEASE\sainsburystest\src\main\java\com\robinson\projects\sainsburystest\jsonhandler\CustomDoubleSerializer.java

@@ -1,25 +1,27 @@
-package com.robinson.projects.sainsburystest.jsonhandler;
+package com.robinson.projects.sainsburystest.model;
 
-import java.util.Iterator;
-import java.util.List;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.Optional;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
-import com.fasterxml.jackson.databind.node.JsonNodeType;
-import com.fasterxml.jackson.databind.node.ObjectNode;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+
+import com.robinson.projects.sainsburystest.jsonhandler.CustomDoubleSerializer;
 
 public class Result {
-
 	static ObjectMapper mapper = new ObjectMapper();
 	static ObjectWriter regularJSONWriter = mapper.writer();
 	static ObjectWriter prettyJSONWriter = mapper.writerWithDefaultPrettyPrinter();
 	
 	private String title;
-	private Integer kcal_per_100g = null; 
-	private double unit_price;
+	@JsonInclude(Include.NON_NULL)	
+	private Integer kcal_per_100g = null;
+	@JsonSerialize(using = CustomDoubleSerializer.class)
+	private Double unit_price;	
 	private String description;
 
 	public Result(String title, Optional<Integer> kcal_per_100g, double unit_price, String description) {
@@ -27,7 +29,7 @@ public class Result {
 		if (kcal_per_100g.isPresent()) {
 			this.setKcal_per_100g(kcal_per_100g.get());
 		}
-		this.unit_price = unit_price;
+		setUnit_price(unit_price);
 		this.description = description;
 	}
 
@@ -47,12 +49,13 @@ public class Result {
 		this.kcal_per_100g = kcal_per_100g;
 	}
 
-	public double getUnit_price() {
+	public Double getUnit_price() {
 		return unit_price;
 	}
 
 	public void setUnit_price(double unit_price) {
-		this.unit_price = unit_price;
+		BigDecimal bd = BigDecimal.valueOf(unit_price).setScale(2, RoundingMode.FLOOR);
+		this.unit_price = bd.doubleValue();
 	}
 
 	public String getDescription() {
@@ -63,25 +66,5 @@ public class Result {
 		this.description = description;
 	}
 
-	public String toJSON() {
-		ObjectMapper objectMapper = new ObjectMapper();
-		JsonNode jsonNode = objectMapper.valueToTree(this);
-		ObjectNode node = (ObjectNode) jsonNode;
-
-		JsonNode n = node.get("kcal_per_100g");
-		if (n.getNodeType().name().equals("NULL")) {
-			JsonNode removedNode = ((ObjectNode) jsonNode).remove("kcal_per_100g");
-		}
-		
-		try {
-			return regularJSONWriter.writeValueAsString(jsonNode);
-		} catch (JsonProcessingException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
-		
-		return "error";
-		
-	}
 }
 		

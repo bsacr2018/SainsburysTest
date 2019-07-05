@@ -1,0 +1,8 @@
+com\robinson\projects\sainsburystest\model\Total.class
+com\robinson\projects\sainsburystest\ScraperTask.class
+com\robinson\projects\sainsburystest\jsonhandler\Precision.class
+com\robinson\projects\sainsburystest\model\DisplayableProducts.class
+com\robinson\projects\sainsburystest\model\Product.class
+com\robinson\projects\sainsburystest\model\Result.class
+com\robinson\projects\sainsburystest\model\Details.class
+com\robinson\projects\sainsburystest\jsonhandler\CustomDoubleSerializer.class
