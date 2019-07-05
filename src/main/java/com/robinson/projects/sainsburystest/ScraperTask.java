@@ -40,6 +40,7 @@ public class ScraperTask {
 		System.out.println("validatingTerms="+validatingTerms);
 		System.out.println("relevantCategory="+relevantCategory);
 		System.out.println();
+		
 		// Establish the web addresses and names of the products from the Products page
 		// that meet one of the validatingTerms under the relevantCategory on that page
 		try {
@@ -63,22 +64,23 @@ public class ScraperTask {
 			product.determineDetails();
 			if (product.isTitlesMatch()) {
 				count++;
+			} else {
 				discrepancies.add(itemNo);
 			}
 		}
 		System.out.println("\n");
 		
 		if (count != products.size()) {
-			System.out.printf("#titles matching products="+count);
-			System.out.printf("==>Discrepancies for items: "+discrepancies+"\n");
+			System.out.println("#titles matching products="+count);
+			System.out.println("==>Discrepancies for items: "+discrepancies+"\n");
 		}
-
-		System.out.println("Displaying the JSON of the resulting DisplayableProducts object:");
 
 		DisplayableProducts displayableProducts = new DisplayableProducts();
 		for (Product product : products) {
 			displayableProducts.add(product);
 		}
+		
+		System.out.println("Displaying the JSON of the resulting DisplayableProducts object:");
 
 		ObjectMapper mapper = new ObjectMapper();
 		ObjectWriter prettyPrinter = mapper.writerWithDefaultPrettyPrinter();

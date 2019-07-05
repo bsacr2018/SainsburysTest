@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.robinson.projects.sainsburystest.model.ProductAddressesTest" time="0.116" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.robinson.projects.sainsburystest.model.ProductAddressesTest" time="0.152" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_192\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\ANDREW~1\AppData\Local\Temp\surefire6000539405230054461\surefirebooter224143486509820097.jar C:\Users\Andrew Robinson\AppData\Local\Temp\surefire6000539405230054461 2019-07-05T13-43-20_540-jvmRun1 surefire8776432273390828835tmp surefire_03445220454952929095tmp"/>
+    <property name="sun.java.command" value="C:\Users\ANDREW~1\AppData\Local\Temp\surefire8398016048232962638\surefirebooter3519377195694052545.jar C:\Users\Andrew Robinson\AppData\Local\Temp\surefire8398016048232962638 2019-07-05T20-30-19_739-jvmRun1 surefire7556070200630701472tmp surefire_08488702007238797888tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Andrew Robinson\workspace-spring-tool-suite-4-4.1.2.RELEASE\sainsburystest\target\test-classes;C:\Users\Andrew Robinson\workspace-spring-tool-suite-4-4.1.2.RELEASE\sainsburystest\target\classes;C:\Users\Andrew Robinson\.m2\repository\org\junit\jupiter\junit-jupiter\5.5.0-M1\junit-jupiter-5.5.0-M1.jar;C:\Users\Andrew Robinson\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.0-M1\junit-jupiter-api-5.5.0-M1.jar;C:\Users\Andrew Robinson\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Andrew Robinson\.m2\repository\org\junit\platform\junit-platform-commons\1.5.0-M1\junit-platform-commons-1.5.0-M1.jar;C:\Users\Andrew Robinson\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.5.0-M1\junit-jupiter-params-5.5.0-M1.jar;C:\Users\Andrew Robinson\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.0-M1\junit-jupiter-engine-5.5.0-M1.jar;C:\Users\Andrew Robinson\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Andrew Robinson\.m2\repository\org\junit\platform\junit-platform-engine\1.5.0-M1\junit-platform-engine-1.5.0-M1.jar;C:\Users\Andrew Robinson\.m2\repository\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\Andrew Robinson\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.9\jackson-core-2.9.9.jar;C:\Users\Andrew Robinson\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.9\jackson-databind-2.9.9.jar;C:\Users\Andrew Robinson\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.9\jackson-annotations-2.9.9.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Andrew Robinson"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ANDREW~1\AppData\Local\Temp\surefire6000539405230054461\surefirebooter224143486509820097.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ANDREW~1\AppData\Local\Temp\surefire8398016048232962638\surefirebooter3519377195694052545.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_192\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_192\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_192\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_192\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_192\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_192\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_192\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_192\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,5 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testToShowThatPresumedNamesAndWebAddressesCanBeExtractedFromHTML" classname="com.robinson.projects.sainsburystest.model.ProductAddressesTest" time="0.116"/>
+  <testcase name="testToShowThatPresumedNamesAndWebAddressesCanBeExtractedFromHTMLIfThereIsAMatchForCategoryAndMatchingTerm" classname="com.robinson.projects.sainsburystest.model.ProductAddressesTest" time="0.151"/>
 </testsuite>
