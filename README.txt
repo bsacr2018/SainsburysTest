@@ -1,4 +1,5 @@
-Website ScraperTask test for Sainsbury's Software Engineer role (Manchester)
+Website ScraperTask test originally submitted for Sainsbury's Software Engineer role (Manchester) in 2019,
+and now resubmitted in 2020.
 
 1. Installation
 
